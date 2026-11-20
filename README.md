@@ -8,14 +8,14 @@
 prompt-library/
 ├── README.md                  # Оглавление: таблица всех промптов, статусы и ссылки
 ├── motordetal/                # Рабочие ассистенты для «Мотордеталь»
-│   ├── main-assistant.md      # ⭐ Главный ассистент ТМ (маршрутизация: CRM, аудит, КП)
-│   ├── crm-assistant.md       # Отчёты, аудит CRM, черновики КП
-│   ├── audio-transcriber.md   # Расшифровка и чистка диктофона
-│   └── kp-generator.md        # Узкий промпт чисто под генерацию КП
+│   └── main-assistant.md      # ⭐ Главный ассистент ТМ (маршрутизация: CRM, аудит, КП)
 ├── rag-system/                # Промпты для RAG-проекта
 │   ├── router-agent.md        # Маршрутизация по ролям (Admin / РОП / ТМ)
 │   └── strict-qa.md           # Ответы строго по контексту базы знаний
 └── archive/                   # Устаревшие промпты, которые больше не нужны
+    ├── crm-assistant.md       # 🔴 заменён main-assistant.md
+    ├── audio-transcriber.md   # 🔴 заменён main-assistant.md
+    └── kp-generator.md        # 🔴 заменён main-assistant.md
 ```
 
 ## Оглавление промптов
@@ -23,11 +23,11 @@ prompt-library/
 | Промпт | Назначение | Статус | Файл |
 |--------|------------|:------:|------|
 | ⭐ **Главный ассистент ТМ** | Маршрутизация входов: CRM-отчёты, кросс-сверка и аудит встречи, техаудит и КП со стоп-краном | 🟢 главный | [motordetal/main-assistant.md](motordetal/main-assistant.md) |
-| CRM-ассистент «Мотордеталь» | Отчёты, аудит данных CRM, черновики КП | 🟡 черновик | [motordetal/crm-assistant.md](motordetal/crm-assistant.md) |
-| Расшифровка диктофона | Чистка и структурирование транскрибации | 🟡 черновик | [motordetal/audio-transcriber.md](motordetal/audio-transcriber.md) |
-| Генератор КП | Только генерация коммерческих предложений | 🟡 черновик | [motordetal/kp-generator.md](motordetal/kp-generator.md) |
 | Router-агент (RAG) | Маршрутизация по ролям Admin / РОП / ТМ | 🟡 черновик | [rag-system/router-agent.md](rag-system/router-agent.md) |
 | Strict QA (RAG) | Ответ строго по контексту базы знаний | 🟡 черновик | [rag-system/strict-qa.md](rag-system/strict-qa.md) |
+| CRM-ассистент «Мотордеталь» | Отчёты, аудит данных CRM, черновики КП | 🔴 в архиве (заменён главным) | [archive/crm-assistant.md](archive/crm-assistant.md) |
+| Расшифровка диктофона | Чистка и структурирование транскрибации | 🔴 в архиве | [archive/audio-transcriber.md](archive/audio-transcriber.md) |
+| Генератор КП | Только генерация коммерческих предложений | 🔴 в архиве (КП делает главный, Этап Б) | [archive/kp-generator.md](archive/kp-generator.md) |
 
 ## Статусы
 
