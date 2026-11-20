@@ -8,7 +8,8 @@
 prompt-library/
 ├── README.md                  # Оглавление: таблица всех промптов, статусы и ссылки
 ├── motordetal/                # Рабочие ассистенты для «Мотордеталь»
-│   ├── crm-assistant.md       # Основной промпт (отчёты, аудит, КП)
+│   ├── main-assistant.md      # ⭐ Главный ассистент ТМ (маршрутизация: CRM, аудит, КП)
+│   ├── crm-assistant.md       # Отчёты, аудит CRM, черновики КП
 │   ├── audio-transcriber.md   # Расшифровка и чистка диктофона
 │   └── kp-generator.md        # Узкий промпт чисто под генерацию КП
 ├── rag-system/                # Промпты для RAG-проекта
@@ -21,6 +22,7 @@ prompt-library/
 
 | Промпт | Назначение | Статус | Файл |
 |--------|------------|:------:|------|
+| ⭐ **Главный ассистент ТМ** | Маршрутизация входов: CRM-отчёты, кросс-сверка и аудит встречи, техаудит и КП со стоп-краном | 🟢 главный | [motordetal/main-assistant.md](motordetal/main-assistant.md) |
 | CRM-ассистент «Мотордеталь» | Отчёты, аудит данных CRM, черновики КП | 🟡 черновик | [motordetal/crm-assistant.md](motordetal/crm-assistant.md) |
 | Расшифровка диктофона | Чистка и структурирование транскрибации | 🟡 черновик | [motordetal/audio-transcriber.md](motordetal/audio-transcriber.md) |
 | Генератор КП | Только генерация коммерческих предложений | 🟡 черновик | [motordetal/kp-generator.md](motordetal/kp-generator.md) |
