@@ -1,3 +1,11 @@
+---
+id: audio-transcriber
+version: 1.0.0
+status: deprecated # draft | testing | production | deprecated
+purpose: (архив) Чистка и структурирование сырой транскрибации — функции покрыты motordetal-main-assistant
+last_updated: 2026-11-20
+---
+
 # Расшифровка диктофона
 
 > **Статус:** 🔴 устаревший — перенесён в архив, вход «аудио/заметки» обрабатывает [main-assistant.md](../motordetal/main-assistant.md) (Задачи 1–2)

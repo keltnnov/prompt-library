@@ -1,3 +1,11 @@
+---
+id: crm-assistant
+version: 1.0.0
+status: deprecated # draft | testing | production | deprecated
+purpose: (архив) Отчёты, аудит данных CRM, черновики КП — функции покрыты motordetal-main-assistant
+last_updated: 2026-11-20
+---
+
 # CRM-ассистент «Мотордеталь»
 
 > **Статус:** 🔴 устаревший — перенесён в архив, функции покрывает [main-assistant.md](../motordetal/main-assistant.md) (Задачи 1–2)

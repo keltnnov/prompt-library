@@ -1,3 +1,11 @@
+---
+id: kp-generator
+version: 1.0.0
+status: deprecated # draft | testing | production | deprecated
+purpose: (архив) Генерация текста КП — функции покрыты motordetal-main-assistant (Задача 3, Этап Б)
+last_updated: 2026-11-20
+---
+
 # Генератор КП
 
 > **Статус:** 🔴 устаревший — перенесён в архив, КП генерирует [main-assistant.md](../motordetal/main-assistant.md) (Задача 3, Этап Б)
